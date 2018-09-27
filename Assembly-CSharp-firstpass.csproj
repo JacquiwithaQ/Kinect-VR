@@ -428,6 +428,9 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>/Users/Jacqui/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="Valve.Newtonsoft.Json">
+      <HintPath>/Users/Jacqui/Desktop/Unity Projects/Kinect-VR/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
     </Reference>
