@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{f826eb16-ce5f-4316-87c2-d85deb4a08e2}">
         <property name="name">
-            <value>New Event</value>
+            <value>Object Tracking</value>
         </property>
         <property name="outputFormat">
             <value>1</value>
@@ -33,6 +33,9 @@
         </relationship>
         <relationship name="parameters">
             <destination>{983abd98-9789-4652-8acf-ee9641232a2a}</destination>
+        </relationship>
+        <relationship name="banks">
+            <destination>{ff020d2f-a4f8-4b44-9d01-c05521cd779d}</destination>
         </relationship>
     </object>
     <object class="EventMixer" id="{51f96eca-dc61-48d0-8360-1af093062fd8}">

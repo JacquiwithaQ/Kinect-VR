@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_3;UNITY_2018_2;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_10;UNITY_2018_2;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -53,6 +53,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GoogleVR\Scripts\Audio\FmodGvrAudio.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Audio\FmodGvrAudioRoom.cs" />
+     <Compile Include="Assets\ResonanceAudio\Scripts\FmodResonanceAudio.cs" />
+     <Compile Include="Assets\ResonanceAudio\Scripts\FmodResonanceAudioRoom.cs" />
      <Compile Include="Assets\Scripts\OSCTestSender.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_TestThrow.cs" />
@@ -209,19 +213,57 @@
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedCamera.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+     <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_buggy.cs" />
+     <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_buggy_In.cs" />
+     <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_default.cs" />
+     <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_default_In.cs" />
+     <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_default_Out.cs" />
+     <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_platformer.cs" />
+     <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_platformer_In.cs" />
+     <Compile Include="Assets\SteamVR_Input\SteamVR_Input_Actions.cs" />
+     <Compile Include="Assets\SteamVR_Input\SteamVR_Input_ActionSets.cs" />
+     <None Include="Assets\motionSound\Metadata\SnapshotGroup\{0fd09a41-247f-48b2-9d7f-bd5039223132}.xml" />
+     <None Include="Assets\motionSound\Metadata\Workspace.xml" />
+     <None Include="Assets\motionSound\Metadata\ParameterPresetFolder\{b39c3bb6-9f5b-4c7f-9b0b-ad3dc25b57d6}.xml" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+     <None Include="Assets\motionSound\Metadata\EffectPresetFolder\{0e33a28e-e34a-4349-93f4-c21d2fe11b2c}.xml" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Samples\BuggyBuddy\Materials\LightCone.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
+     <None Include="Assets\motionSound\Metadata\Tags.xml" />
+     <None Include="Assets\motionSound\Metadata\BankFolder\{9b9ebc70-989b-41db-9f9d-abdd4b71064e}.xml" />
+     <None Include="Assets\motionSound\Metadata\ParameterPreset\{78527e61-23f6-4a03-8aaf-38d7b1daa4e7}.xml" />
+     <None Include="Assets\motionSound\Metadata\Master.xml" />
+     <None Include="Assets\motionSound\Metadata\Bank\{ff020d2f-a4f8-4b44-9d01-c05521cd779d}.xml" />
      <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\HighlighGlobal.shader" />
+     <None Include="Assets\motionSound\Metadata\Platform\{80537a49-d941-4f60-8e14-5e5de01d1121}.xml" />
+     <None Include="Assets\motionSound\Metadata\Event\{f826eb16-ce5f-4316-87c2-d85deb4a08e2}.xml" />
+     <None Include="Assets\motionSound\Metadata\Return\{f3e44465-16dd-44f9-98be-f25f5b658d56}.xml" />
+     <None Include="Assets\motionSound\Metadata\Asset\{abe25e37-2471-42a2-9490-716d384b5dce}.xml" />
+     <None Include="Assets\motionSound\Metadata\Mixer.xml" />
      <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+     <None Include="Assets\motionSound\Metadata\EncodingSetting\{59b2aecc-89af-4817-9b75-807a318e9736}.xml" />
      <None Include="Assets\SteamVR\readme.txt" />
+     <None Include="Assets\motionSound\Metadata\EventFolder\{4e679205-897a-479f-96d1-a8860db7f6b2}.xml" />
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
+     <None Include="Assets\motionSound\Metadata\AudioFile\{25c6f3f1-9bf8-4e14-b402-c69a308e1fa7}.xml" />
      <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
+ <Reference Include="UnityEditor.StandardEvents">
+ <HintPath>/Users/Jeena/Documents/Kinect-VR/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>/Users/Jeena/Documents/Kinect-VR/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>/Users/Jeena/Documents/Kinect-VR/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>/Users/Jeena/Documents/Kinect-VR/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
@@ -296,6 +338,9 @@
  </Reference>
  <Reference Include="UnityEngine.ParticleSystemModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticlesLegacyModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.PerformanceReportingModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
@@ -411,9 +456,6 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
- <Reference Include="Vuforia.UnityExtensions">
- <HintPath>/Applications/Unity/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.GoogleAudioSpatializer">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
  </Reference>
@@ -424,13 +466,13 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>/Users/Jacqui/Desktop/Unity Projects/Kinect-VR/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/Jeena/Documents/Kinect-VR/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>/Users/Jacqui/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>/Users/Jeena/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
- <HintPath>/Users/Jacqui/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+ <HintPath>/Users/Jeena/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
